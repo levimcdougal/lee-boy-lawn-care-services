@@ -65,7 +65,7 @@ export default function HomePage() {
       <section className="why-section">
         <div className="why-photo" style={{ backgroundImage: `url(${yardImg})` }} />
         <FadeIn><div className="why-content">
-          <p className="section-label light">Why Lee Boy</p>
+          <p className="section-label light">Why LeeBoy</p>
           <h2>Good work.<br />Straightforward service.</h2>
           <p>We believe a great lawn service should be simple: show up, work hard, and leave the property looking better than we found it.</p>
           <ul>
@@ -104,13 +104,13 @@ export default function HomePage() {
         <FadeIn><div className="gallery-heading">
           <p className="section-label">Our work</p>
           <h2 id="gallery-title">Fresh cuts. <em>Real results.</em></h2>
-          <p>A look at lawns and properties cared for by Lee Boy Lawn Service.</p>
+          <p>A look at lawns and properties cared for by LeeBoy Lawn Service.</p>
         </div></FadeIn>
         <div className="gallery-marquee">
           <div className="gallery-track">
             {[...galleryPhotos, ...galleryPhotos].map((photo, index) => (
               <figure className="gallery-card" key={`${photo}-${index}`} aria-hidden={index >= galleryPhotos.length}>
-                <img src={photo} alt={index < galleryPhotos.length ? `Lee Boy Lawn Service project ${index + 1}` : ''} loading="lazy" />
+                <img src={photo} alt={index < galleryPhotos.length ? `LeeBoy Lawn Service project ${index + 1}` : ''} loading="lazy" />
               </figure>
             ))}
           </div>
