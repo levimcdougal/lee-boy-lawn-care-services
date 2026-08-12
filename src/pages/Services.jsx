@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ArrowRight, Check, Leaf, Scissors, Shovel, Sparkles, TreePine, Truck } from 'lucide-react'
+import { ArrowRight, Check, Leaf, Scissors, Shovel, Sparkles, TreePine, Truck, Warehouse } from 'lucide-react'
 import FadeIn from '../components/FadeIn'
 
 const services = [
@@ -9,6 +9,7 @@ const services = [
   { Icon: TreePine, num: '04', title: 'Tree Trimming', desc: 'Light trimming for small trees and reachable limbs to remove unwanted growth and keep your yard open and tidy.', items: ['Low and reachable limbs', 'Small-tree shaping', 'Branch cleanup and removal'] },
   { Icon: Shovel, num: '05', title: 'Mulching', desc: 'Fresh mulch gives landscape beds a clean look while helping retain moisture and slow down weeds.', items: ['Bed preparation', 'Even mulch installation', 'Clean, defined bed edges'] },
   { Icon: Truck, num: '06', title: 'Debris Removal', desc: 'Reclaim your outdoor space. We clear and haul away common yard debris from seasonal work and cleanup projects.', items: ['Leaves, limbs, and brush', 'Storm and yard debris', 'Final rake and blow-off'] },
+  { Icon: Warehouse, num: '07', title: 'Property Cleanups', desc: 'Give an overgrown or neglected property a fresh start with a thorough outdoor cleanup tailored to what the space needs.', items: ['Overgrowth and weed removal', 'Leaf, brush, and debris cleanup', 'Final rake, blow-off, and haul-away'] },
 ]
 
 export default function Services() {

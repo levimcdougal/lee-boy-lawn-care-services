@@ -6,7 +6,7 @@ const faqs = [
   { q: 'How do I get a free estimate?', a: 'Call or text us at (803) 591-8147 and tell us a little about your property and the work you need. We’ll discuss the details and help you take the next step.' },
   { q: 'How far do you travel?', a: 'LeeBoy Lawn Service covers residential and commercial properties within about a 60-mile radius.' },
   { q: 'Do you service both homes and businesses?', a: 'Yes. We provide lawn care and outdoor maintenance for both residential and commercial properties.' },
-  { q: 'What lawn services do you offer?', a: 'Our services include lawn mowing, edging and trimming, hedge trimming, light tree trimming, mulching, and yard debris removal.' },
+  { q: 'What lawn services do you offer?', a: 'Our services include lawn mowing, edging and trimming, hedge trimming, light tree trimming, mulching, yard debris removal, and full property cleanups.' },
   { q: 'Can I schedule recurring lawn care?', a: 'Contact us to discuss your property, preferred schedule, and current availability. We’ll help determine a service plan that fits your needs.' },
   { q: 'Do I need to be home during service?', a: 'In many cases, no. As long as we can safely access the service areas and have confirmed the work in advance, you can continue with your day.' },
 ]

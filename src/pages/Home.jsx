@@ -17,8 +17,25 @@ import gallery9 from '../assets/IMG9.jpg'
 import gallery10 from '../assets/IMG10.jpg'
 import gallery11 from '../assets/IMG11.jpg'
 import gallery12 from '../assets/IMG12.jpg'
+import gallery13 from '../assets/IMG13.jpg'
+import gallery14 from '../assets/IMG14.jpg'
+import gallery15 from '../assets/IMG15.jpg'
+import gallery16 from '../assets/IMG16.jpg'
+import gallery17 from '../assets/IMG17.jpg'
+import gallery18 from '../assets/IMG18.jpg'
+import gallery19 from '../assets/IMG19.jpg'
+import gallery20 from '../assets/IMG20.jpg'
+import gallery21 from '../assets/IMG21.jpg'
+import gallery22 from '../assets/IMG22.jpg'
+import gallery23 from '../assets/IMG23.jpg'
+import gallery24 from '../assets/IMG24.jpg'
+import gallery25 from '../assets/IMG25.jpg'
 
-const galleryPhotos = [gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9, gallery10, gallery11, gallery12]
+const galleryPhotos = [
+  gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9,
+  gallery10, gallery11, gallery12, gallery13, gallery14, gallery15, gallery16, gallery17,
+  gallery18, gallery19, gallery20, gallery21, gallery22, gallery23, gallery24, gallery25,
+]
 
 const services = [
   { Icon: Leaf, title: 'Lawn Mowing', desc: 'A clean, even cut with sharp striping that keeps your property looking its best.' },
