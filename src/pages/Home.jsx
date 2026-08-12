@@ -1,49 +1,49 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight, Building2, CalendarCheck, Check, Leaf, Scissors, Shovel, Sparkles, TreePine } from 'lucide-react'
 import FadeIn from '../components/FadeIn'
-import heroBg from '../assets/lawn-hero.png'
-import yardImg from '../assets/yard.png'
-import commercialOffice from '../assets/commercial-office.jpg'
-import commercialMowing from '../assets/commercial-mowing.jpg'
-import gallery1 from '../assets/IMG1.jpg'
-import gallery2 from '../assets/IMG2.jpg'
-import gallery3 from '../assets/IMG3.jpg'
-import gallery4 from '../assets/IMG4.jpg'
-import gallery5 from '../assets/IMG5.jpg'
-import gallery6 from '../assets/IMG6.jpg'
-import gallery7 from '../assets/IMG7.jpg'
-import gallery8 from '../assets/IMG8.jpg'
-import gallery9 from '../assets/IMG9.jpg'
-import gallery10 from '../assets/IMG10.jpg'
-import gallery11 from '../assets/IMG11.jpg'
-import gallery12 from '../assets/IMG12.jpg'
-import gallery13 from '../assets/IMG13.jpg'
-import gallery14 from '../assets/IMG14.jpg'
-import gallery15 from '../assets/IMG15.jpg'
-import gallery16 from '../assets/IMG16.jpg'
-import gallery17 from '../assets/IMG17.jpg'
-import gallery18 from '../assets/IMG18.jpg'
-import gallery19 from '../assets/IMG19.jpg'
-import gallery20 from '../assets/IMG20.jpg'
-import gallery21 from '../assets/IMG21.jpg'
-import gallery22 from '../assets/IMG22.jpg'
-import gallery23 from '../assets/IMG23.jpg'
-import gallery24 from '../assets/IMG24.jpg'
-import gallery25 from '../assets/IMG25.jpg'
-import gallery26 from '../assets/IMG26.jpg'
-import gallery27 from '../assets/IMG27.jpg'
-import gallery28 from '../assets/IMG28.jpg'
-import gallery29 from '../assets/IMG29.jpg'
-import gallery30 from '../assets/IMG30.jpg'
-import gallery31 from '../assets/IMG31.jpg'
-import gallery32 from '../assets/IMG32.jpg'
-import gallery33 from '../assets/IMG33.jpg'
-import gallery34 from '../assets/IMG34.jpg'
-import gallery35 from '../assets/IMG35.jpg'
-import gallery36 from '../assets/IMG36.jpg'
-import gallery37 from '../assets/IMG37.jpg'
-import gallery38 from '../assets/IMG38.jpg'
-import gallery39 from '../assets/IMG39.jpg'
+import heroBg from '../assets/lawn-hero.optimized.jpg'
+import yardImg from '../assets/yard.optimized.jpg'
+import commercialOffice from '../assets/commercial-office.optimized.jpg'
+import commercialMowing from '../assets/commercial-mowing.optimized.jpg'
+import gallery1 from '../assets/IMG1.optimized.jpg'
+import gallery2 from '../assets/IMG2.optimized.jpg'
+import gallery3 from '../assets/IMG3.optimized.jpg'
+import gallery4 from '../assets/IMG4.optimized.jpg'
+import gallery5 from '../assets/IMG5.optimized.jpg'
+import gallery6 from '../assets/IMG6.optimized.jpg'
+import gallery7 from '../assets/IMG7.optimized.jpg'
+import gallery8 from '../assets/IMG8.optimized.jpg'
+import gallery9 from '../assets/IMG9.optimized.jpg'
+import gallery10 from '../assets/IMG10.optimized.jpg'
+import gallery11 from '../assets/IMG11.optimized.jpg'
+import gallery12 from '../assets/IMG12.optimized.jpg'
+import gallery13 from '../assets/IMG13.optimized.jpg'
+import gallery14 from '../assets/IMG14.optimized.jpg'
+import gallery15 from '../assets/IMG15.optimized.jpg'
+import gallery16 from '../assets/IMG16.optimized.jpg'
+import gallery17 from '../assets/IMG17.optimized.jpg'
+import gallery18 from '../assets/IMG18.optimized.jpg'
+import gallery19 from '../assets/IMG19.optimized.jpg'
+import gallery20 from '../assets/IMG20.optimized.jpg'
+import gallery21 from '../assets/IMG21.optimized.jpg'
+import gallery22 from '../assets/IMG22.optimized.jpg'
+import gallery23 from '../assets/IMG23.optimized.jpg'
+import gallery24 from '../assets/IMG24.optimized.jpg'
+import gallery25 from '../assets/IMG25.optimized.jpg'
+import gallery26 from '../assets/IMG26.optimized.jpg'
+import gallery27 from '../assets/IMG27.optimized.jpg'
+import gallery28 from '../assets/IMG28.optimized.jpg'
+import gallery29 from '../assets/IMG29.optimized.jpg'
+import gallery30 from '../assets/IMG30.optimized.jpg'
+import gallery31 from '../assets/IMG31.optimized.jpg'
+import gallery32 from '../assets/IMG32.optimized.jpg'
+import gallery33 from '../assets/IMG33.optimized.jpg'
+import gallery34 from '../assets/IMG34.optimized.jpg'
+import gallery35 from '../assets/IMG35.optimized.jpg'
+import gallery36 from '../assets/IMG36.optimized.jpg'
+import gallery37 from '../assets/IMG37.optimized.jpg'
+import gallery38 from '../assets/IMG38.optimized.jpg'
+import gallery39 from '../assets/IMG39.optimized.jpg'
 
 const galleryPhotos = [
   gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9,
@@ -97,7 +97,7 @@ export default function HomePage() {
       </section>
 
       <section className="why-section">
-        <div className="why-photo" style={{ backgroundImage: `url(${yardImg})` }} />
+        <div className="why-photo"><img src={yardImg} alt="Freshly maintained lawn" loading="lazy" decoding="async" width="1400" height="1050" /></div>
         <FadeIn><div className="why-content">
           <p className="section-label light">Why LeeBoy</p>
           <h2>Good work.<br />Straightforward service.</h2>
@@ -127,8 +127,8 @@ export default function HomePage() {
             <Link to="/contact" className="btn-commercial">Request a commercial estimate <ArrowRight size={17} /></Link>
           </div></FadeIn>
           <FadeIn delay={100}><div className="commercial-photos">
-            <img className="commercial-photo-main" src={commercialOffice} alt="Professionally maintained lawn and landscaping at a commercial office property" loading="lazy" />
-            <img className="commercial-photo-small" src={commercialMowing} alt="Commercial lawn mowing beside a small business property" loading="lazy" />
+            <img className="commercial-photo-main" src={commercialOffice} alt="Professionally maintained lawn and landscaping at a commercial office property" loading="lazy" decoding="async" width="1100" height="733" />
+            <img className="commercial-photo-small" src={commercialMowing} alt="Commercial lawn mowing beside a small business property" loading="lazy" decoding="async" width="1100" height="733" />
             <div className="commercial-badge"><strong>60</strong><span>mile service<br />area</span></div>
           </div></FadeIn>
         </div>
@@ -144,7 +144,7 @@ export default function HomePage() {
           <div className="gallery-track">
             {[...galleryPhotos, ...galleryPhotos].map((photo, index) => (
               <figure className="gallery-card" key={`${photo}-${index}`} aria-hidden={index >= galleryPhotos.length}>
-                <img src={photo} alt={index < galleryPhotos.length ? `LeeBoy Lawn Service project ${index + 1}` : ''} loading="lazy" />
+                <img src={photo} alt={index < galleryPhotos.length ? `LeeBoy Lawn Service project ${index + 1}` : ''} loading="lazy" decoding="async" fetchPriority="low" width="340" height="420" />
               </figure>
             ))}
           </div>
