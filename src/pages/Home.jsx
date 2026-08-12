@@ -30,11 +30,28 @@ import gallery22 from '../assets/IMG22.jpg'
 import gallery23 from '../assets/IMG23.jpg'
 import gallery24 from '../assets/IMG24.jpg'
 import gallery25 from '../assets/IMG25.jpg'
+import gallery26 from '../assets/IMG26.jpg'
+import gallery27 from '../assets/IMG27.jpg'
+import gallery28 from '../assets/IMG28.jpg'
+import gallery29 from '../assets/IMG29.jpg'
+import gallery30 from '../assets/IMG30.jpg'
+import gallery31 from '../assets/IMG31.jpg'
+import gallery32 from '../assets/IMG32.jpg'
+import gallery33 from '../assets/IMG33.jpg'
+import gallery34 from '../assets/IMG34.jpg'
+import gallery35 from '../assets/IMG35.jpg'
+import gallery36 from '../assets/IMG36.jpg'
+import gallery37 from '../assets/IMG37.jpg'
+import gallery38 from '../assets/IMG38.jpg'
+import gallery39 from '../assets/IMG39.jpg'
 
 const galleryPhotos = [
   gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9,
   gallery10, gallery11, gallery12, gallery13, gallery14, gallery15, gallery16, gallery17,
   gallery18, gallery19, gallery20, gallery21, gallery22, gallery23, gallery24, gallery25,
+  gallery26, gallery27, gallery28, gallery29, gallery30,
+  gallery31, gallery32, gallery33, gallery34, gallery35, gallery36, gallery37, gallery38,
+  gallery39,
 ]
 
 const services = [
